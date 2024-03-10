@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: build using makefile.bat",
+            "type": "shell",
+            "osx": {
+                "command": "make -f MakefileMac"
+            },
+            "windows": {
+                "command": ".\\MakefileWin.bat"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
